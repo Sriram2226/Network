@@ -86,7 +86,7 @@ proc finish {} {
     global ns nf
     $ns flush-trace 
     close $nf
-    puts "filtering..."
+    # puts "filtering..."
     exec nam goback.nam &
     exit 0
 }
